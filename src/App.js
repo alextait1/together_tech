@@ -34,7 +34,7 @@ function App() {
             </li>
             <li>
               <a href="https://twitter.com/TogetherTech_TO" aria-label="twitter">
-                <img className="twitter-logo" src={require("./assets/Twitter_Logo_Blue.png")}/>
+                <img className="twitter-logo" src={require("./assets/Twitter_Logo_Blue.png")} alt="twitter"/>
               </a>
             </li>
           </ul>
