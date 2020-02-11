@@ -1,16 +1,21 @@
-.App {
-  text-align: center;
-}
-
 /* Header styles */
-.app-header {
+
+.header-top {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
-} 
+  padding: 1rem 0;
+}
 
-.svg-container {
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.monogram-container {
   color: #F8F8FF;
   background: #44929f;
   border-radius: 50%;
@@ -20,29 +25,70 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 12px 6px 6px;
 }
 
-.app-header nav ul {
-  list-style: none;
+.heading-container {
+  background-color: #F8F8FF;
+  width: 100%;
   display: flex;
-  margin: 0;
-  justify-content: space-between;
+  justify-content: center;
 }
+
+h1 {
+  font-family: 'Lora', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 0.85;
+  font-size: 5rem;
+  margin: 2rem;
+}
+
+h1 .together {
+  color: #44929f;
+}
+
+h1 .tech {
+  color:#c28034;
+  padding-left:36%;
+}
+
+h2 {
+  color:#191c1b;
+  font-size: 2rem;
+  font-family: 'Lora', serif;
+  margin:0;
+  border-top: 5px solid gray;
+  border-bottom:5px solid gray;
+}
+
+.tagline {
+  width: 100%;
+  background-color: #FFD700;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+/* nav styles */
 
 .nav-link {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .twitter-logo{
   height:60px;
   width:60px;
-  margin-bottom: -10px;
 }
 
 nav {
   width: 40%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
 /* link styles */
@@ -62,36 +108,26 @@ nav {
   border-radius:5px;
 }
 
-/* Text styles */
-
-h1 {
-  font-family: 'Lora', serif;
+/* Main Section */
+/* .info {
   display: flex;
-  flex-direction: column;
-  align-items: start;
-  line-height: 0.85;
-  font-size: 5rem;
+  padding: 2rem 0;
+} */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+.about {
+  width: 70%;
+  padding: 0 1.5rem 0 0;
 }
 
-h1 .together {
-  color: #44929f;
+aside {
+  width: 40%;
+  background-color: #d7d3cb;
 }
-
-h1 .tech {
-  color:#c28034;
-  padding-left:36%;
-}
-
-h1, h2 {
-  padding: 50px 20px;
-}
-
-h2 {
-  color:#191c1b;
-  font-size: 3rem;
-  padding: 5%;
-  font-family: 'Lora', serif;
-}
+/* Text styles */
 
 h3 {
   font-family: 'Lora', serif;
@@ -102,6 +138,7 @@ h3 {
 p {
   font-size: 1.2rem;
 }
+
 .tagline-two {
   color:#44929f;
   font-style: italic;
@@ -118,136 +155,3 @@ p {
   flex-direction: column;
 }
 
-
-/* Sponsors and Parters styles */
-
-.sponsors {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Tiles */
-.box {
-  width: 50%;
-  border: 6px solid #d7d3cb;
-}
-
-.box-row {
-  display: flex;
-}
-
-.box1, .box2 {
-  display: flex;
-  align-items: center;
-}
-
-.box-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.box2, .box3 {
-  background-color: #fdec92;
-  padding: 0 5%;
-}
-
-.box1, .box4 {
-  background-color: #F8F8FF;
-}
-
-.box3 {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.box1 {
-  justify-content: center;
-}
-.box4 {
-  text-align: left;
-  padding: 10px;
-}
-
-.box4 p, .box4 h3 {
-  padding: 0 10%;
-}
-.box3, .box4 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.details-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  text-align: left;
-}
-
-.link-container {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-}
-
-.link-container li {
-  font-size: 1.17rem;
-  margin: 1rem 0;
-}
-
-/* Media Queries */
-
-@media(max-width: 1020px){
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-}
-
-@media(max-width: 860px){
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-}
-
-@media(max-width: 680px){
-  .box-row {
-    flex-direction: column;
-  }
-  .box {
-    width: 100%;
-  }
-  .box1 {
-    justify-content: center;
-  }
-
-  .box3 {
-    background-color: #F8F8FF;
-  }
-  .box4 {
-    background-color: #fdec92;
-    ;
-  }
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-}
-
-@media(max-width: 380px){
-  h1 {
-    font-size: 3.5rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-}
