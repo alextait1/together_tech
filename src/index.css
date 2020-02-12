@@ -6,6 +6,11 @@ body {
   color: #191c1b;
 }
 
+@media(max-width: 480px){
+  body {
+    padding: 0 2%;
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

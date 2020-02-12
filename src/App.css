@@ -1,6 +1,7 @@
-.App {
-  text-align: center;
-}
+/* 
+TODO: Add sponsors/partners section
+*/
+
 
 /* Header styles */
 .app-header {
@@ -10,7 +11,7 @@
   width: 100%;
 } 
 
-.svg-container {
+.monogram-container {
   color: #F8F8FF;
   background: #44929f;
   border-radius: 50%;
@@ -23,43 +24,44 @@
   margin: 12px 6px 6px;
 }
 
-.app-header nav ul {
+nav {
+  width: 40%;
+}
+
+nav ul {
   list-style: none;
   display: flex;
   margin: 0;
   justify-content: space-between;
-}
-
-.nav-link {
-  display: flex;
-  align-items: flex-end;
+  padding-left: 0;
 }
 
 .twitter-logo{
   height:60px;
   width:60px;
-  margin-bottom: -10px;
-}
-
-nav {
-  width: 40%;
 }
 
 /* link styles */
-.nav-link a, .box4 a {
+a {
   color:  #1b4c5b;
   transition: 0.2s;
   text-decoration:none;
   font-weight: bold;
   transition: 0.3s;
-  font-size: 1.17rem;
-  margin-bottom: 6px;
+  font-size: 1.2rem;
 }
 
-.nav-link a:hover, .box4 a:hover {
-  background:#fdec92;
+.nav-link {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 18px;
+}
+
+.nav-link a:hover, .details-container a:hover {
+  background:#ADE0E2;
   padding: 5px 10px;
-  border-radius:5px;
+  border-radius:20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /* Text styles */
@@ -72,118 +74,76 @@ h1 {
   line-height: 0.85;
   font-size: 5rem;
 }
-
 h1 .together {
   color: #44929f;
 }
-
 h1 .tech {
-  color:#c28034;
+  color:#59653D;
   padding-left:36%;
 }
-
 h1, h2 {
   padding: 50px 20px;
 }
-
 h2 {
   color:#191c1b;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 5%;
   font-family: 'Lora', serif;
 }
-
 h3 {
   font-family: 'Lora', serif;
   font-size: 1.5rem;
   margin:0.5rem 0;
 }
-
 p {
   font-size: 1.2rem;
 }
 .tagline-two {
-  color:#44929f;
   font-style: italic;
 }
-
 .detail {
-  font-family: 'Lora', serif;
-  color:#44929f;
-  font-size:1.5rem;
+  color:#4D8688;
+  font-weight: bold;
 }
 
-.image-container {
-  display: flex;
-  flex-direction: column;
-}
-
-
-/* Sponsors and Parters styles */
-
-.sponsors {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Tiles */
+/* Box/tile sections*/
 .box {
   width: 50%;
   border: 6px solid #d7d3cb;
 }
-
 .box-row {
   display: flex;
 }
-
-.box1, .box2 {
+.heading-container, .tagline-container {
   display: flex;
   align-items: center;
 }
-
-.box-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.box2, .box3 {
-  background-color: #fdec92;
+.tagline-container, .about-container {
+  background-color: #ADE0E2;
   padding: 0 5%;
 }
-
-.box1, .box4 {
+.heading-container, .details-container {
   background-color: #F8F8FF;
 }
 
-.box3 {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.box1 {
+.heading-container {
   justify-content: center;
 }
-.box4 {
+.details-container {
   text-align: left;
-  padding: 10px;
 }
-
-.box4 p, .box4 h3 {
+.details-container p, .details-container h3, .about-container p, .about-container h3 {
   padding: 0 10%;
 }
-.box3, .box4 {
+.about-container, .details-container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 .details-container {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  text-align: left;
+  align-items: center;
 }
-
 .link-container {
   list-style: none;
   display: flex;
@@ -191,10 +151,16 @@ p {
   justify-content: center;
   align-items: start;
 }
-
-.link-container li {
-  font-size: 1.17rem;
-  margin: 1rem 0;
+.tickets-container {
+  background-color: #ADE0E2;
+  width: 200px;
+  padding: 15px 0;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /* Media Queries */
@@ -206,6 +172,9 @@ p {
   h2 {
     font-size: 2.5rem;
   }
+  nav {
+    width: 50%;
+  }
 }
 
 @media(max-width: 860px){
@@ -214,6 +183,9 @@ p {
   }
   h2 {
     font-size: 2rem;
+  }
+  nav {
+    width: 60%;
   }
 }
 
@@ -224,16 +196,23 @@ p {
   .box {
     width: 100%;
   }
-  .box1 {
+  .tagline-container, .about-container{
+    padding: 0;
+  }
+  .heading-container {
     justify-content: center;
   }
-
-  .box3 {
+  .about-container {
     background-color: #F8F8FF;
   }
-  .box4 {
-    background-color: #fdec92;
-    ;
+  .details-container {
+    background-color: #ADE0E2;
+  }
+  .detail {
+    color:#191c1b;
+  }
+  .tickets-container {
+    background-color:#F8F8FF;
   }
   h1 {
     font-size: 4rem;
@@ -241,13 +220,23 @@ p {
   h2 {
     font-size: 2rem;
   }
+  nav {
+    width: 70%;
+  }
 }
 
-@media(max-width: 380px){
+@media(max-width: 580px){
   h1 {
     font-size: 3.5rem;
   }
   h2 {
     font-size: 2rem;
+  }
+  .app-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    width: 100%;
   }
 }
