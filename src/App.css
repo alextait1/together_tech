@@ -2,7 +2,6 @@
 TODO: Add sponsors/partners section
 */
 
-
 /* Header styles */
 .app-header {
   display: flex;
@@ -187,6 +186,9 @@ p {
   nav {
     width: 60%;
   }
+  .tagline-container {
+    text-align: center;
+  }
 }
 
 @media(max-width: 680px){
@@ -195,6 +197,7 @@ p {
   }
   .box {
     width: 100%;
+    border: none;
   }
   .tagline-container, .about-container{
     padding: 0;
@@ -228,6 +231,7 @@ p {
 @media(max-width: 580px){
   h1 {
     font-size: 3.5rem;
+    margin: 1rem;
   }
   h2 {
     font-size: 2rem;
@@ -238,5 +242,11 @@ p {
   }
   nav {
     width: 100%;
+  }
+}
+
+@media(max-width: 360px){
+  nav ul li:first-child {
+    display: none;
   }
 }
