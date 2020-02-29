@@ -24,7 +24,7 @@ TODO: Add sponsors/partners section
 }
 
 nav {
-  width: 40%;
+  width: 50%;
 }
 
 nav ul {
@@ -173,7 +173,7 @@ p {
     font-size: 2.5rem;
   }
   nav {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -185,7 +185,7 @@ p {
     font-size: 2rem;
   }
   nav {
-    width: 60%;
+    width: 70%;
   }
   .tagline-container {
     text-align: center;
@@ -225,7 +225,7 @@ p {
     font-size: 2rem;
   }
   nav {
-    width: 70%;
+    width: 80%;
   }
 }
 
