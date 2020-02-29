@@ -5,7 +5,7 @@ export const Home = () => {
         document.title="Together Tech"
     })
     return (
-        <div>
+    <div>
         <div className="box-row">
           <section className="heading-container box">
           <div className="logo-container">
@@ -45,6 +45,6 @@ export const Home = () => {
             </div>
           </section>
         </div>
-        </div>
+    </div>
     )
 };
