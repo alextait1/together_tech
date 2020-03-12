@@ -10,7 +10,7 @@ export const Supporters = ()=>{
             <div className="sponsors-container">
                 <p>To make a donation please visit our <a href="https://www.gofundme.com/f/together-tech">go fund me page.</a> Companies who contribute $200+ will be thanked on social media and listed as event sponsors here!</p>
             </div>
-            <h2>Partners for April 26th Event</h2>
+            <h2>Partners for April 26th Event -POSTPONED</h2>
            
             <div className="juno-container">
                 <h3>Juno College of Technology</h3>

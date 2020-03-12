@@ -31,9 +31,9 @@ function App() {
         </div>
         <nav>
           <ul className="nav-list">
-            <li className="nav-link tickets">
+            {/* <li className="nav-link tickets">
               <a href="https://www.eventbrite.com/e/together-tech-a-meetup-for-those-who-cant-always-meet-up-tickets-90389279769">Tickets</a>
-            </li>
+            </li> */}
             <li className="nav-link">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSddXXY4pohIWGpEiVvgPqO6wyamYdu3rm5WzqGVLirkjTNc7w/viewform" aria-label="call for proposals">CFP</a>
             </li>
