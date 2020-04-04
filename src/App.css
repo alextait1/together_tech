@@ -298,4 +298,128 @@ p {
   li.tickets {
     display: none;
   }
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+/* SHOP LOCAL */
+.shop-local-header {
+  margin-bottom: 40px;
+}
+
+.shop-local-h2 {
+  padding: 0;
+}
+
+.submit-business-button {
+  text-decoration: underline;
+  background:#ADE0E2;
+  padding: 10px 20px;
+  border-radius:20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.business-container {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  flex-wrap: wrap;
+}
+
+.business-card-container {
+  width: 31%;
+  height: 100%;
+  background-color: #F8F8FF;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 40px;
+}
+.business-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px 10px
+}
+
+.business-card p {
+  font-size: 1rem;
+}
+.business-card-image {
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid lightgray;
+}
+
+.business-card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 280px;
+}
+
+.business-card-body {
+  margin: 0 auto;
+}
+
+.website-link {
+  text-decoration: underline;
+}
+
+.website-link:hover {
+  background:#ADE0E2;
+  padding: 5px 10px;
+  border-radius:20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.pickup-delivery {
+  display: flex;
+}
+
+.neighbourhood-container h4, .neighbourhood-container p, .goods-container h4, .goods-container p{
+  display: inline;
+}
+
+.goods-container {
+  margin: 15px 0;
+}
+
+/* Atomic classes */
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+/* Shop local media queries */
+
+/* @media(max-width: 1020px){
+} */
+
+@media(max-width: 1200px){
+  .business-card-container {
+    width: 48%;
+  }
+}
+
+@media(max-width: 860px){
+.business-card-image {
+    height: 160px;
+  }
+}
+
+@media(max-width: 768px){
+  .business-card-container {
+    width: 96%;
+  }
+  .business-card-image {
+    height: 200px;
+  }
+}
+
+@media(max-width: 580px){
+
+}
+
+@media(max-width: 360px){
+
 }
