@@ -327,6 +327,10 @@ p {
   width:100%;
 }
 
+.business-name {
+  text-align: center;
+}
+
 .business-card-container {
   /* width: 31%; */
   height: 100%;

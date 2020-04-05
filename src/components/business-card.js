@@ -5,7 +5,7 @@ export const BusinessCard = (props) => {
     <div className="business-card">
         <a href={props.href}>
             <div className="business-card-header">
-                <h3>{props.name}</h3>
+                <h3 className="business-name">{props.name}</h3>
                 <a className="website-link" href={props.href}>Visit Website</a>
                 <img className="business-card-image"alt={props.alt} src={props.src}/>    
             </div>
