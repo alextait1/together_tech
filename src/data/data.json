@@ -9,7 +9,7 @@
         "pickup": true,
         "delivery": false,
         "neighbourhood": "Coxwell and Danforth",
-        "Details": "Order online, they package and sanitize everything. Pickups are booked in 10 minute slots to keep the number of patrons to a maxiumum of 5 at a time."
+        "details": "Order online, they package and sanitize everything. Pickups are booked in 10 minute slots to keep the number of patrons to a maxiumum of 5 at a time."
     },
     {
         "name": "Kendal Hills Virtual Farmer's Market",
@@ -21,7 +21,7 @@
         "pickup": false,
         "delivery": true,
         "neighbourhood": "GTA, check website for delivery to your area",
-        "Details": "Virtual market from a dozen local farmers, restocked Thursdays at noon, $4.50 delivery fee, orders taken Thurs 12pm - Sun 12am. Option to watch and tip local musicans while delivery is on the way."
+        "details": "Virtual market from a dozen local farmers, restocked Thursdays at noon, $4.50 delivery fee, orders taken Thurs 12pm - Sun 12am. Option to watch and tip local musicans while delivery is on the way."
     },
     {
         "name": "Rowe Farms",
@@ -33,7 +33,7 @@
         "pickup": false,
         "delivery": true,
         "neighbourhood": "GTA, check website for delivery to your area",
-        "Details": "Now offering online order with delivery, store will email you on day of delivery to inquire about add ons like dairy and organic produce"
+        "details": "Now offering online order with delivery, store will email you on day of delivery to inquire about add ons like dairy and organic produce"
     },
     {
         "name": "Arva Flour Mills",
@@ -45,7 +45,7 @@
         "pickup": false,
         "delivery": true,
         "neighbourhood": "GTA, check website for delivery to your area",
-        "Details": "Small batch sustainable flour mill delivers to your door. Flour should be frozen if it will not be used in ~30 days." 
+        "details": "Small batch sustainable flour mill delivers to your door. Flour should be frozen if it will not be used in ~30 days." 
     },
     {
         "name": "Coffeecology",
@@ -57,7 +57,7 @@
         "pickup": true,
         "delivery": true,
         "neighbourhood": "GTA, check website for delivery and retail in your area",
-        "Details": "Now offering online order with delivery, store will email you on day of delivery to inquire about add ons like dairy and organic produce" 
+        "details": "Now offering online order with delivery, store will email you on day of delivery to inquire about add ons like dairy and organic produce" 
     },
     {
         "name": "Cherry Bomb Coffee",
@@ -69,6 +69,30 @@
         "pickup": false,
         "delivery": true,
         "neighbourhood": "Roncessvales, Ontario-wide delivery check website for delivery to your area",
-        "Details": "Coffee roasted weekly, delivery orders cut off Mondays at noon same week free delivery, minimum 5lbs, maxiumum 5 lbs." 
+        "details": "Coffee roasted weekly, delivery orders cut off Mondays at noon same week free delivery, minimum 5lbs, maxiumum 5 lbs." 
+    },
+    {
+        "name": "Kinsfolk Shop",
+        "id": 7,
+        "url": "https://kinsfolkshop.com/",
+        "goods": "Ethically made, sustainably sourced kitchen, bath and self-care goods",
+        "image": "kinsfolk.png",
+        "alt": "A grid of 6 household cleaning supplies",
+        "pickup": false,
+        "delivery": true,
+        "neighbourhood": "Burlington , free delivery over $100",
+        "details": "Also have kits for areas of the house and limited pet supplies." 
+    },
+    {
+        "name": "Knick Knack Paddywhack",
+        "id": 8,
+        "url": "https://www.knickknackpaddywhack.ca/",
+        "goods": "Natural food choices for healthy pets",
+        "image": "knickknack.png",
+        "alt": "A grid of 6 household cleaning supplies",
+        "pickup": true,
+        "delivery": true,
+        "neighbourhood": "Riverdale, Toronto",
+        "details": "Offering free delivery over $40 and curb-side pickup." 
     }
 ]
