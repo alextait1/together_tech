@@ -36,8 +36,20 @@
         "Details": "Now offering online order with delivery, store will email you on day of delivery to inquire about add ons like dairy and organic produce"
     },
     {
-        "name": "Coffeecology",
+        "name": "Arva Flour Mills",
         "id": 4,
+        "url": "https://www.arvaflourmill.com/",
+        "goods": "Local natural heritage flour from non GMO wheat, no preservatives or undesirable commercial additives",
+        "image": "arva-flour.png",
+        "alt": "2 paper bag sacks of flour",
+        "pickup": false,
+        "delivery": true,
+        "neighbourhood": "GTA, check website for delivery to your area",
+        "Details": "Small batch sustainable flour mill delivers to your door. Flour should be frozen if it will not be used in ~30 days." 
+    },
+    {
+        "name": "Coffeecology",
+        "id": 5,
         "url": "https://rowefarms.ca/",
         "goods": "Sustainably grown, locally raised, minimally processed, organic meat.",
         "image": "coffeecology.png",
@@ -48,15 +60,15 @@
         "Details": "Now offering online order with delivery, store will email you on day of delivery to inquire about add ons like dairy and organic produce" 
     },
     {
-        "name": "Arva Flour Mills",
-        "id": 5,
-        "url": "https://www.arvaflourmill.com/",
-        "goods": "Local natural heritage flour from non GMO wheat, no preservatives or undesirable commercial additives",
-        "image": "arva-flour.png",
-        "alt": "2 paper bag sacks of flour",
+        "name": "Cherry Bomb Coffee",
+        "id": 6,
+        "url": "https://www.cherrybombcoffee.ca/",
+        "goods": "Locally roasted coffee beans",
+        "image": "cherry-bomb.png",
+        "alt": "Bag of Cherry Bomb Coffee Beans",
         "pickup": false,
         "delivery": true,
-        "neighbourhood": "GTA, check website for delivery to your area",
-        "Details": "Small batch sustainable flour mill delivers to your door. Flour should be frozen if it will not be used in ~30 days." 
+        "neighbourhood": "Roncessvales, Ontario-wide delivery check website for delivery to your area",
+        "Details": "Coffee roasted weekly, delivery orders cut off Mondays at noon same week free delivery, minimum 5lbs, maxiumum 5 lbs." 
     }
 ]
