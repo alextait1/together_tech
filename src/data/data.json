@@ -57,7 +57,7 @@
         "pickup": true,
         "delivery": true,
         "neighbourhood": "GTA, check website for delivery and retail in your area",
-        "details": "Now offering online order with delivery, store will email you on day of delivery to inquire about add ons like dairy and organic produce" 
+        "details": "Bike delivered in the GTA, typically order by Monday recieve by Thurs, could be longer due to COVID." 
     },
     {
         "name": "Cherry Bomb Coffee",
@@ -69,7 +69,7 @@
         "pickup": false,
         "delivery": true,
         "neighbourhood": "Roncessvales, Ontario-wide delivery check website for delivery to your area",
-        "details": "Coffee roasted weekly, delivery orders cut off Mondays at noon same week free delivery, minimum 5lbs, maxiumum 5 lbs." 
+        "details": "Coffee roasted weekly, delivery orders cut off Mondays at noon same week free delivery, minimum 5lbs, maxiumum 10 lbs." 
     },
     {
         "name": "Kinsfolk Shop",
@@ -89,10 +89,22 @@
         "url": "https://www.knickknackpaddywhack.ca/",
         "goods": "Natural food choices for healthy pets",
         "image": "knickknack.png",
-        "alt": "A grid of 6 household cleaning supplies",
+        "alt": "cartoon puppy logo",
         "pickup": true,
         "delivery": true,
         "neighbourhood": "Riverdale, Toronto",
         "details": "Offering free delivery over $40 and curb-side pickup." 
+    },
+    {
+        "name": "EllaMinnow",
+        "id": 9,
+        "url": "https://ellaminnow.ca/",
+        "goods": "Children's books and activities",
+        "image": "ellaminnow.png",
+        "alt": "A grid of 6 kids books",
+        "pickup": true,
+        "delivery": true,
+        "neighbourhood": "Beaches, Toronto",
+        "details": "Offering free delivery within their area over $25, $10 flat fee for delivery in the GTA." 
     }
 ]
