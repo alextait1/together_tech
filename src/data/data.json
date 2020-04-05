@@ -106,5 +106,17 @@
         "delivery": true,
         "neighbourhood": "Beaches, Toronto",
         "details": "Offering free delivery within their area over $25, $10 flat fee for delivery in the GTA." 
+    },
+    {
+        "name": "Likely General",
+        "id": 10,
+        "url": "https://likelygeneral.com/",
+        "goods": "Artists and creators' handmade goods",
+        "image": "likely.png",
+        "alt": "Likely General logo",
+        "pickup": false,
+        "delivery": true,
+        "neighbourhood": "Roncesvalles/Howard Park",
+        "details": "Brick & mortar closed, free domestic shipping over $80, $4 contact-free delivery within Toronto." 
     }
 ]
