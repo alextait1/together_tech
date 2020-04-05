@@ -103,6 +103,7 @@ p {
 }
 .tagline-two {
   font-style: italic;
+  text-align: center;
 }
 .detail {
   color:#4D8688;
@@ -245,18 +246,16 @@ p {
 }
 
 @media(max-width: 680px){
-  .box-row {
-    flex-direction: column;
+  .splash-row-1, .splash-row-2 {
+    grid-template-columns: 1fr;
+    margin-bottom: 0;
+  }
+  .logo-container {
+    display: grid;
+    justify-content: center;
   }
   .box {
-    width: 100%;
-    border: none;
-  }
-  .tagline-container, .about-container{
-    padding: 20px 0;
-  }
-  .heading-container {
-    justify-content: center;
+   margin-bottom: 15px;
   }
   .about-container {
     background-color: #F8F8FF;
@@ -275,13 +274,6 @@ p {
   }
   h2 {
     font-size: 2rem;
-  }
-  .app-header {
-    flex-direction: column;
-    align-items: center;
-  }
-  nav {
-    width: 100%;
   }
 }
 
