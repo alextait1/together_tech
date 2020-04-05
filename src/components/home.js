@@ -6,7 +6,7 @@ export const Home = () => {
     })
     return (
     <div>
-        <div className="box-row">
+        <div className="splash-row-1">
           <section className="heading-container box">
           <div className="logo-container">
             <h1>
@@ -22,7 +22,7 @@ export const Home = () => {
             </h2>
           </section>
         </div>
-        <div className="box-row">
+        <div className="splash-row-2">
           <section className="about-container box">
             {/* <h3>About Together Tech</h3> */}
             <h3>COVID-19 Update</h3>

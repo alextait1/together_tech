@@ -90,7 +90,6 @@ h1, h2 {
 h2 {
   color:#191c1b;
   font-size: 2.5rem;
-  padding: 5%;
   font-family: 'Lora', serif;
 }
 h3 {
@@ -110,32 +109,37 @@ p {
   font-weight: bold;
 }
 
-/* Box/tile sections*/
+/* Splash */
+
 .box {
-  width: 50%;
-  border: 6px solid #d7d3cb;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.box-row {
-  display: flex;
+.splash-row-1 {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-column-gap: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
-.heading-container, .tagline-container {
-  display: flex;
+
+.splash-row-2 {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-column-gap: 15px;
+}
+
+.tagline-container, .heading-container {
+  display: grid;
   align-items: center;
 }
+
 .tagline-container, .about-container {
   background-color: #ADE0E2;
-  padding: 0 5%;
 }
 .heading-container, .details-container {
   background-color: #F8F8FF;
 }
 
-.heading-container {
-  justify-content: center;
-}
-.details-container {
-  text-align: left;
-}
 .details-container p, .details-container h3, .about-container p, .about-container h3 {
   padding: 0 10%;
 }
