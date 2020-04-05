@@ -10,7 +10,7 @@ export const ShopLocal = ()=>{
     return(
         <div>
             <header className="shop-local-header">
-                <h2 className="shop-local-h2">Local GTA businesses offering delivery and pick up options during COVID-19 crisis</h2>
+                <h2 className="shop-local-h2">Local GTA businesses offering delivery and pick up options during the COVID-19 crisis</h2>
                 <a className="submit-business-button" href="https://docs.google.com/forms/d/e/1FAIpQLScGeH3onM3pvqoIZmIsxoZW0oo-FtKUEyDYOpf-IRx340sDhQ/viewform?usp=sf_link">Submit a business</a>
             </header>
             <div className="business-container">
