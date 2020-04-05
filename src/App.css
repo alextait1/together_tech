@@ -378,7 +378,7 @@ p {
   display: flex;
 }
 
-.neighbourhood-container h4, .neighbourhood-container p, .goods-container h4, .goods-container p, details-container h4, .details-container p{
+.neighbourhood-container h4, .neighbourhood-container p, .goods-container h4, .goods-container p {
   display: inline;
 }
 
