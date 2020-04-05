@@ -118,5 +118,41 @@
         "delivery": true,
         "neighbourhood": "Roncesvalles/Howard Park",
         "details": "Brick & mortar closed, free domestic shipping over $80, $4 contact-free delivery within Toronto." 
+    },
+    {
+        "name": "Blackbird Baking Co",
+        "id": 11,
+        "url": "https://blackbirdbakingco.com",
+        "goods": "Bread, baked goods, pantry items",
+        "image": "blackbird.png",
+        "alt": "Blackbird logo with loaves of bread behind it",
+        "pickup": true,
+        "delivery": true,
+        "neighbourhood": "North, West and East Toronto",
+        "details": "Weekly and biweekly subscriptions available for delivery, pick up available." 
+    },
+    {
+        "name": "Chocosol",
+        "id": 12,
+        "url": "https://chocosoltraders.com/",
+        "goods": "Fair trade chocolate and coffee",
+        "image": "chocosol.png",
+        "alt": "Cocoa beans behind Chococol logo",
+        "pickup": false,
+        "delivery": true,
+        "neighbourhood": "GTA",
+        "details": "Deals on Bulk chocolate, free delivery by bike." 
+    },    
+    {
+        "name": "Tap Phong",
+        "id": 13,
+        "url": "http://tapphong.com/",
+        "goods": "Kitchen/Household supply",
+        "image": "tapphong.png",
+        "alt": "Tap Phong Logo with image of cookware",
+        "pickup": true,
+        "delivery": false,
+        "neighbourhood": "Spadina & College",
+        "details": "Offering curbside pickup." 
     }
 ]
