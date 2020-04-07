@@ -38,9 +38,9 @@ function App() {
             <li className="nav-link covid-local">
               <Link to="/local">Shop Local</Link>
             </li>
-            <li className="nav-link">
+            {/* <li className="nav-link">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSddXXY4pohIWGpEiVvgPqO6wyamYdu3rm5WzqGVLirkjTNc7w/viewform" aria-label="call for proposals">CFP</a>
-            </li>
+            </li> */}
             <li className="nav-link">
               <a href="https://www.gofundme.com/f/together-tech">Donate</a>
             </li>
@@ -50,7 +50,7 @@ function App() {
             <li className="nav-link home">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="twitter-link">
               <a href="https://twitter.com/TogetherTech_TO" aria-label="twitter">
                 <img className="twitter-logo" src={require("./assets/Twitter_Logo_Blue.png")} alt="twitter"/>
               </a>

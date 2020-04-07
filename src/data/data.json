@@ -154,5 +154,17 @@
         "delivery": false,
         "neighbourhood": "Spadina & College",
         "details": "Offering curbside pickup." 
+    },
+    {
+        "name": "Maizal",
+        "id": 14,
+        "url": "http://tortillas.maizal.ca/",
+        "goods": "Sustainable zero-waste business offering pure corn tortillas, masa, totopos, salsas, dry bean, guacamole and limited eggs from a local farm",
+        "image": "maizal.png",
+        "alt": "Corn on the cobb, tortillas on a grill and tortilla dough",
+        "pickup": true,
+        "delivery": true,
+        "neighbourhood": "Ossington & Queen",
+        "details": "You can email them at tortillas@maizal.ca to place an order. Deliveries depending on proximity. Pickup days at Tuesday and Friday, 11am-2pm. Deliveries are same days after 3pm." 
     }
 ]
