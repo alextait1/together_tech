@@ -166,5 +166,53 @@
         "delivery": true,
         "neighbourhood": "Ossington & Queen",
         "details": "You can email them at tortillas@maizal.ca to place an order. Deliveries depending on proximity. Pickup days at Tuesday and Friday, 11am-2pm. Deliveries are same days after 3pm." 
+    },
+    {
+        "name": "Pretty Clean Shop",
+        "id": 15,
+        "url": "https://www.prettycleanshop.com/",
+        "goods": "Largest selection of zero-waste and refillable products for the body, skin, hair and home. Made with safe ingredients without cruelty and toxins.",
+        "image": "pretty_clean_shop.png",
+        "alt": "Store front for Pretty Clean Shop",
+        "pickup": true,
+        "delivery": true,
+        "neighbourhood": "Toronto, West end",
+        "details": "Reduced shipping rates in Canada and free shipping locally (west end), curb side pickup available" 
+    },
+      {
+        "name": "West Side Beef",
+        "id": 16,
+        "url": "http://westsidebeef.com/",
+        "goods": "Local meat company - antibiotic free, local meat, directly from the farmer that raised it and shiped directly to you.",
+        "image": "west_side_beef.png",
+        "alt": "West side beef logo with an image of a barn in a field",
+        "pickup": false,
+        "delivery": true,
+        "neighbourhood": "GTA",
+        "details": "They offer both subscription and one-off delivery options. " 
+    },
+    {
+        "name": "Kibble",
+        "id": 17,
+        "url": "https://www.kibble.io",
+        "goods": "Online pet store that carries your dog or cat’s food and treats",
+        "image": "kibble.png",
+        "alt": "bags of pet food",
+        "pickup": false,
+        "delivery": true,
+        "neighbourhood": "GTA",
+        "details": "Closed all walk-in traffic and pivoted to an online-only business model, providing contactless delivery In 1-3 days"
+    },
+    {
+        "name": "Shopman",
+        "id": 18,
+        "url": "https://shopman.ca/",
+        "goods": "Online grocery store and delivery",
+        "image": "shopman.png",
+        "alt": "images of products for sale",
+        "pickup": false,
+        "delivery": true,
+        "neighbourhood": "Gerrard & Pape",
+        "details": "Same day delivery guaranteed"
     }
 ]
